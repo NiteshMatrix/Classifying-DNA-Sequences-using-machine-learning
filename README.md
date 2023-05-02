@@ -10,4 +10,20 @@ The data is not in a usable form, so it needs to be processed before being used 
 ## Step 3: Training and Testing the Classification Algorithms
 Now that the data has been preprocessed and the training and testing datasets have been built, various classification algorithms can be used to classify the DNA sequences. Ten different algorithms are used and the performance of each is compared and contrasted. The accuracy score and classification report are used as performance metrics. The code defines each algorithm and evaluates them in turn using cross-validation.
 
+## Step 4: Model Evalution
+Classification Algorithms
+The project compares and contrasts the performance of ten different classification algorithms on the DNA promoter classification problem. The algorithms used in the project include:
+
+K Nearest Neighbors
+Gaussian Process
+Decision Tree
+Random Forest
+Neural Net
+AddaBoost
+Naive Bayes
+SVM Linear
+SVM RBF
+SVM Sigmoid
+The models are evaluated using accuracy score and classification report.
+
 This code is useful for anyone interested in bioinformatics or machine learning classification algorithms. The code can be used as a starting point for DNA sequence classification or as a reference for implementing and comparing different classification algorithms.
